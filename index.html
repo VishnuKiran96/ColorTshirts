@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom T-Shirts</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <script src="./src/scripts/index.js"></script>
+</head>
+<body>
+    <h2 class="text-center mt-4">Hover Over Color Boxes To Chage the Color of the T-Shirt</h2>
+    <div class="d-flex justify-content-center mt-4">
+        <div id="redBlock" class="block" onmouseover="changeTshirt(this.id)" onmouseout="whiteTshirt()"></div>
+        <div id="greenBlock" class="block" onmouseover="changeTshirt(this.id)" onmouseout="whiteTshirt()"></div>
+        <div id="blueBlock" class="block" onmouseover="changeTshirt(this.id)" onmouseout="whiteTshirt()"></div>
+        <div id="orangeBlock" class="block" onmouseover="changeTshirt(this.id)" onmouseout="whiteTshirt()"></div>
+    </div>
+    <div align="center" class="mt-4">
+        <h2 id="heading">T-Shirt</h2>
+        <img src="./public/images/whiteShirt.jpg" width="200" height="200" class="mt-4" id="preview">
+    </div>
+</body>
+</html>

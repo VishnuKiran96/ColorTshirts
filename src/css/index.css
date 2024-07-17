@@ -1,0 +1,20 @@
+.block{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}
+#redBlock{
+    background-color: rgb(237,28,36);
+}
+#greenBlock{
+    background-color: rgb(34,177,76);
+}
+#blueBlock{
+    background-color: rgb(63,72,204);
+}
+#orangeBlock{
+    background-color: rgb(255,127,39);
+}
+#redBlock:hover,#greenBlock:hover,#blueBlock:hover,#orangeBlock:hover{
+    border: 5px solid white;
+}
